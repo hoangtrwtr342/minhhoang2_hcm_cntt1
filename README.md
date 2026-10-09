@@ -1,16 +1,14 @@
 Bài 3 stage 6
 
-Sơ đồ IPO
+I, Sơ đồ IPO
 
-Input: Tên thư mục, tên 3 file, nguồn code và đích sao lưu
+1.Input: Tên thư mục, tên 3 file, nguồn code và đích sao lưu
+   
+2. Process: Tạo cây thư mục → tạo file → ẩn .env → sao chép code đệ quy
+   
+3. Output: smart-farm có code, data\logs và backup\code_v1
 
-   ↓
-   
-Process: Tạo cây thư mục → tạo file → ẩn .env → sao chép code đệ quy
-  
-   ↓
-   
-Output: smart-farm có code, data\logs và backup\code_v1
+II,
 
 1. Tạo cây thư mục lồng nhau `smart-farm\data\logs` và `smart-farm\code` chỉ bằng **duy nhất 1 dòng lệnh** PowerShell.
 
